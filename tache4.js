@@ -11,17 +11,17 @@
 let age = parseInt( prompt("Saisir votre age") );
 
 if(age>= 0 && age <= 14){
-    document.write('Enfants');
+    alert('Vous etes un Enfant');
 }
 else if(age>= 15 && age <= 25){
-    document.write('Adolescents');
+    alert('Vous etes un Adolescent');
 }
 else if(age>= 26 && age <= 65){
-    document.write('Adultes');
+    alert('Vous etes un Adulte');
 }
 else if(age >= 66){
-    document.write('Aines');
+    alert('Vous etes un Aine');
 }
 else{
-    document.write('Age introuvable');
+    alert('Age introuvable');
 }
